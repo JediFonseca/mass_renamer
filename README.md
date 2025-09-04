@@ -22,7 +22,7 @@ Este software foi criado por **fins recreativos e experimentais**. Está sendo d
 
 ### 🧠 Desenvolvido com assistência de Inteligência Artificial
 
-Eu não sou desenvolvedor, não trabalho com isso e não tenho conhecimentos aprofundados de nenhuma linguagem de programação. O desenvolvimento desse software foi feito **por diversão e como um hobbie** com assistência da IA **Copilot** (Vibe Coding).
+Eu não sou desenvolvedor, não trabalho com isso e não tenho conhecimentos aprofundados em nenhuma linguagem de programação. O desenvolvimento desse software foi feito **por diversão e como um hobbie** com assistência da IA **Copilot** (Vibe Coding).
 
 ---
 
@@ -141,5 +141,6 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
