@@ -71,8 +71,6 @@ Distribuído sob a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2
 
 ## In English:
 
-# 🗂️ Mass Renamer 1.0
-
 **Mass Renamer** is a desktop application developed in Python with a `customtkinter` interface, which allows you to rename multiple files quickly, safely, and in an organized manner. It supports undoing the most recent renaming, adding extensions to filenames and a multilingual interface (🇧🇷 Portuguese and 🇺🇸 English).
 
 ---
@@ -135,4 +133,5 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 ### 👤 Author
 
 **Jedielson da Fonseca**
+
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
