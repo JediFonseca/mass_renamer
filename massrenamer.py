@@ -525,7 +525,7 @@ def set_language(lang):
     rename_button.configure(text=texts["rename"])
     undo_button.configure(text=texts["undo"])
     ext_label_o.configure(text=texts["add_extension"])
-    ext_label_n.configure(texts["add_extension"])
+    ext_label_n.configure(text=texts["add_extension"])
     # update menus
     lang_menu.set("English" if current_lang == "en" else "Português")
     theme_menu.configure(values=[texts["light"], texts["dark"]])
