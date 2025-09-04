@@ -6,7 +6,7 @@ Download: [**Reseases**](https://github.com/JediFonseca/mass_renamer/releases/ta
 
 ## Em Português (English below):
 
-**Mass Renamer** é uma aplicação desktop desenvolvida em Python com interface via `customtkinter`, que permite renomear múltiplos arquivos de forma rápida, segura e organizada. Possui suporte a desfazera renomeação mais recente, adicionar extensões aos nomes dos arquivos e interface multilíngue (🇧🇷 Português e 🇺🇸 Inglês).
+**Mass Renamer** é uma aplicação desktop desenvolvida em Python com interface via `customtkinter`, que permite renomear múltiplos arquivos de forma rápida, segura e organizada. Possui suporte a desfazer a renomeação mais recente, adicionar extensões aos nomes dos arquivos e interface multilíngue (🇧🇷 Português e 🇺🇸 Inglês).
 
 <img width="905" height="685" alt="Captura de tela 2025-09-04 074452" src="https://github.com/user-attachments/assets/29152896-a235-491f-9958-8a085afb28b6" />
 
@@ -141,6 +141,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
