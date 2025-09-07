@@ -1,6 +1,6 @@
 # 🗂️ Mass Renamer 1.0
 
-Download for Linux and Windows: [**Releases**](https://github.com/JediFonseca/mass_renamer/releases/tag/Mass_Renamer-1.0)
+Download for Linux and Windows: [**Releases**](https://github.com/JediFonseca/mass_renamer/releases)
 
 ## Em Português (English below):
 
@@ -139,6 +139,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
