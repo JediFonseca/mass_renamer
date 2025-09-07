@@ -19,6 +19,7 @@ import sys  # Added to handle resource paths
 import customtkinter as ctk
 from tkinter import filedialog, messagebox
 from customtkinter import CTkFont
+from PIL import Image, ImageTk
 
 # forbidden characters on Windows
 ILLEGAL_CHARS = set('<>:"/\\|?*')
@@ -329,9 +330,24 @@ ctk.set_default_color_theme("blue")
 app = ctk.CTk()
 app.title("Mass Renamer 1.0")
 
-# set the window icon
+# NOVO BLOCO com Pillow para alta qualidade
 try:
-    app.iconbitmap(resource_path('appicon.ico'))
+    # Caminho para o ícone de alta resolução
+    icon_path = resource_path('appicon.png')
+
+    # 1. Abre a imagem original com Pillow
+    high_res_image = Image.open(icon_path)
+
+    # 2. Redimensiona a imagem para um tamanho ideal com um filtro de alta qualidade
+    #    Image.Resampling.LANCZOS é o melhor para reduzir imagens
+    resized_image = high_res_image.resize((48, 48), Image.Resampling.LANCZOS)
+
+    # 3. Converte a imagem do Pillow para um formato que o Tkinter entende
+    icon_image = ImageTk.PhotoImage(resized_image)
+
+    # 4. Define o ícone da janela
+    app.wm_iconphoto(False, icon_image)
+
 except Exception as e:
     print(f"Error loading icon: {e}")
 
