@@ -50,6 +50,7 @@ If you prefer to run the project directly from the Python code, without using th
 On Linux Mint 22.2:
 
 "apt install" packages: python3 python3-pip python3-tk build-essential python3.12-venv patchelf ccache
+
 "pip install" packages: PyQt6 pyinstaller nuitka
 
 On Windows (using the 1.0 version source code):
@@ -122,6 +123,7 @@ Se preferir executar o projeto diretamente do código Python, sem usar o execut�
 No Linux Mint 22.2:
 
 Pacotes "apt install": python3 python3-pip python3-tk build-essential python3.12-venv patchelf ccache  
+
 Pacotes "pip install": PyQt6 pyinstaller nuitka
 
 Em Windows (usando o código-fonte da versão 1.0):
@@ -145,5 +147,6 @@ Distribuído sob a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
