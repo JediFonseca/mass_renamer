@@ -20,7 +20,7 @@ This software was created for **recreational and experimental purposes**. It is 
 
 ### 🚀 How to use
 
-1. Run the ".appimage", ".exe" or the Python script (`mass_renamer.py`).
+1. Run the ".appimage", ".exe" or the Python script (`massrenamer.py`).
 2. Select the folder where the files to be renamed are located.
 3. Click "Load names" to load the names of all files in the selected folder or enter the original names manually in the "Original names" field.
 4. Enter the new names in the "New names" field.
@@ -92,7 +92,7 @@ Este software foi criado para **fins recreativos e experimentais**. Está dispon
 
 ### 🚀 Como usar
 
-1. Execute o ".appimage", ".exe" ou o script Python (`mass_renamer.py`).  
+1. Execute o ".appimage", ".exe" ou o script Python (`massrenamer.py`).  
 2. Selecione a pasta onde estão os arquivos a serem renomeados.  
 3. Clique em "Carregar nomes" para carregar os nomes de todos os arquivos na pasta selecionada ou insira os nomes originais manualmente no campo "Nomes originais".  
 4. Digite os novos nomes no campo "Novos nomes".  
@@ -145,3 +145,4 @@ Distribuído sob a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
