@@ -75,11 +75,9 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
 
-# 🗂️ Mass Renamer 1.0
+## Em Português:
 
 Download para Linux e Windows: [**Releases**](https://github.com/JediFonseca/mass_renamer/releases)
-
-## Em Português:
 
 **Mass Renamer** é um aplicativo desktop desenvolvido em Python com interface `Qt6`, que permite renomear múltiplos arquivos de forma rápida, segura e organizada. Suporta desfazer a renomeação mais recente, adicionar extensões aos nomes de arquivo e interface multilíngue (🇧🇷 português e 🇺🇸 inglês).
 
@@ -147,6 +145,7 @@ Distribuído sob a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
