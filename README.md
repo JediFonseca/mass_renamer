@@ -1,10 +1,10 @@
 # 🗂️ Mass Renamer 2.1
 
-This software was created for **recreational and experimental purposes**. It is being made available as **free** and **open-source**. If it helps you in any way, make good use of it. Feel free to contribute, adapt, or share! I am not a developer, I don't work in the field, and I don't have in-depth knowledge of any programming language. The development of this software was done **for fun and as a hobby** with the **assistance of AI** (**Vibe Coding**).
+**Mass Renamer** is a Linux application developed in Python with a `Qt6` interface, which allows you to rename multiple files quickly, safely, and in an organized manner. It supports undoing the most recent renaming, adding extensions to filenames and a multilingual interface (🇧🇷 Portuguese and 🇺🇸 English).
 
 Download: [**Releases**](https://github.com/JediFonseca/mass_renamer/releases)
 
-**Mass Renamer** is a Linux application developed in Python with a `Qt6` interface, which allows you to rename multiple files quickly, safely, and in an organized manner. It supports undoing the most recent renaming, adding extensions to filenames and a multilingual interface (🇧🇷 Portuguese and 🇺🇸 English).
+**DISCLAIMER:** This software was created for **recreational and experimental purposes**. It is being made available as **free** and **open-source**. If it helps you in any way, make good use of it. Feel free to contribute, adapt, or share! I am not a developer, I don't work in the field, and I don't have in-depth knowledge of any programming language. The development of this software was done **for fun and as a hobby** with the **assistance of AI** (**Vibe Coding**).
 
 <img width="910" height="692" alt="Captura de tela de 2025-09-10 17-01-50" src="https://github.com/user-attachments/assets/a90e3627-3cd6-45b7-b678-f88ee62c9f01" />
 
@@ -63,4 +63,5 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
