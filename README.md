@@ -6,9 +6,9 @@
 
 **IMPORTANT:** This software was created for **recreational and experimental purposes**. It is being made available as **free** and **open-source**. If it helps you in any way, make good use of it. Feel free to contribute, adapt, or share! I am not a developer, I don't work in the field, and I don't have in-depth knowledge of any programming language. The development of this software was done **for fun and as a hobby** with the **assistance of AI** (**Vibe Coding**).
 
-<img width="910" height="692" alt="Captura de tela de 2025-09-10 17-01-50" src="https://github.com/user-attachments/assets/a90e3627-3cd6-45b7-b678-f88ee62c9f01" />
+<img width="911" height="695" alt="img01" src="https://github.com/user-attachments/assets/64c958b6-09a1-44d0-b306-3e0bbe5f054d" />
 
-<img width="909" height="691" alt="Captura de tela de 2025-09-10 17-02-05" src="https://github.com/user-attachments/assets/8fdb072c-fb45-42e1-824f-f75bc556a485" />
+<img width="904" height="685" alt="img02" src="https://github.com/user-attachments/assets/bacf2549-6c36-4aac-b68e-b34951666ca6" />
 
 ---
 
@@ -35,9 +35,9 @@ NOTE: The file whose original name is on line "1" of the "Original names" field 
 - ✍️ Fields for original names and new names (with line numbering);
 - 🔁 Button to undo the most recent renaming;
 - 🧼 Automatic removal of invalid characters for filenames;
-- 🌙 Toggle between light and dark mode (the option is saved for future sessions);
+- 🌙 Toggle between 10 different themes, including popular ones like Adwaita and Breeze (Both on their light and dark variants). The theme is saved for future sessions.;
 - 🌐 Support for two languages: Portuguese and English (the option is saved for future sessions);
-- 🔤 Quick addition of popular extensions to filenames (.jpg, .pdf, .mp3, etc.);
+- 🔤 Quick addition of ANY extensions to filenames;
 - 🧠 Responsive and intuitive interface with `Qt6`.
 
 ---
@@ -63,6 +63,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
