@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2025 Jedielson da Fonseca -->
+<component type="desktop-application">
+  <id>com.github.jedifonseca.mass_renamer</id>
+  
+  <name>Mass Renamer</name>
+  <summary>Rename multiple files at once quickly and easily</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  
+  <developer id="com.github.jedifonseca">
+    <name>Jedielson da Fonseca</name>
+  </developer>
+  
+  <description>
+    <p>
+      Mass Renamer is a simple yet powerful tool for renaming multiple files simultaneously. It is ideal for organizing photo collections, music libraries, or any set of files that need a consistent naming pattern.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Numbered list view of original and new names.</li>
+      <li>Automatically load all filenames from a selected folder, if so desired.</li>
+      <li>Quickly add or remove any file extensions.</li>
+      <li>Transfer extensions from original names to new names.</li>
+      <li>Undo the last renaming operation safely, even after an app or system crash.</li>
+      <li>Cross-platform filename validation for Windows, macOS, Linux and Android.</li>
+      <li>Multiple themes to match your desktop environment.</li>
+    </ul>
+  </description>
+  
+  <launchable type="desktop-id">massrenamer.desktop</launchable>
+  
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window with Mint-Y-Dark-Aqua theme</caption>
+      <image>https://raw.githubusercontent.com/JediFonseca/mass_renamer/main/screenshots/img01.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Settings window with Ubuntu light theme</caption>
+      <image>https://raw.githubusercontent.com/JediFonseca/mass_renamer/main/screenshots/img02.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="2.2" date="2025-09-12">
+      <description>
+        <p>This is a major update focused on adding a comprehensive settings menu, improving user feedback during operations, and increasing safety and stability.</p>
+        <ul>
+          <li>New Settings Window: Includes cross-platform filename validation and customizable extensions.</li>
+          <li>Operation Progress Counter: A percentage counter is now displayed during "Rename" and "Undo" tasks.</li>
+          <li>Automatic Log Saving: Logs for "Rename" and "Undo" are now saved in the config folder.</li>
+          <li>Enhanced Undo Safety: The undo feature now checks for file modifications before running, preventing data loss.</li>
+          <li>Improved Conflict Detection: Now detects duplicate names within the new names list itself.</li>
+          <li>New Themes: Added Adwaita and Breeze themes, with updated color palettes.</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1" />
+  
+  <url type="homepage">https://github.com/JediFonseca/mass_renamer</url>
+  <url type="bugtracker">https://github.com/JediFonseca/mass_renamer/issues</url>
+  
+</component>
