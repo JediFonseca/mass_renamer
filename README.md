@@ -1,4 +1,4 @@
-# 🗂️ Mass Renamer 2.1
+# 🗂️ Mass Renamer 2.2
 
 **Mass Renamer** is a Linux application developed in Python with a `Qt6` interface, which allows you to rename multiple files quickly, safely, and in an organized manner. It supports undoing the most recent renaming even if the app was closed or crashed, adding extensions to filenames, protection from accidental file or folder overscription and a multilingual interface (🇧🇷 Portuguese and 🇺🇸 English).
 
@@ -63,6 +63,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
