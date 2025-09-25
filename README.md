@@ -5,12 +5,12 @@
 **Download:** [**Releases**](https://github.com/JediFonseca/mass_renamer/releases)
 
 **Tested on:**
-- ✅ Fedora 42 (GNOME);
-- ✅ Debian 13 (MATE);
-- ✅ Linux Mint 22.2 (Cinnamon);
-- ✅ Ubuntu 22.04;
-- ✅ Ubuntu 24.04;
-- ✅ Ubuntu 25.04.
+✅ Fedora 42 (GNOME);
+✅ Debian 13 (MATE);
+✅ Linux Mint 22.2 (Cinnamon);
+✅ Ubuntu 22.04;
+✅ Ubuntu 24.04;
+✅ Ubuntu 25.04.
 
 
 **IMPORTANT:** This software was created for **recreational and experimental purposes**. It is being made available as **free** and **open-source**. If it helps you in any way, make good use of it. Feel free to contribute, adapt, or share! I am not a developer, I don't work in the field, and I don't have in-depth knowledge of any programming language. The development of this software was done **for fun and as a hobby** with the **assistance of AI** (**Vibe Coding**).
@@ -72,6 +72,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
