@@ -6,6 +6,7 @@
 
 **Tested on:**  
 ✅ openSUSE Leap 15.6 (KDE Plasma);  
+✅ openSUSE Tumbleweed (GNOME)
 ✅ Fedora 42 (GNOME);  
 ✅ Debian 13 (MATE);  
 ✅ Linux Mint 22.2 (Cinnamon);  
@@ -73,6 +74,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
