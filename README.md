@@ -43,7 +43,7 @@ NOTE: The file whose original name is on line "1" of the "Original names" field 
 - 📝 Persistent history files for renaming and undoing;
 - 🛡️ Protection from accidental file or folder overscription;
 - 🔁 Button to undo the most recent renaming;
-- 🧼 Automatic removal of invalid characters for filenames;
+- 🧼 Automatic removal of invalid characters for filenames, with the option to disable/enable it based on different operating systems;
 - 🌙 Toggle between 10 different themes, including popular ones like Adwaita and Breeze (Both on their light and dark variants). The theme is saved for future sessions.;
 - 🌐 Support for two languages: Portuguese and English (the option is saved for future sessions);
 - 🔤 Quick addition of ANY extensions to filenames;
@@ -72,6 +72,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
