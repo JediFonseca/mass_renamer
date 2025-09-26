@@ -30,7 +30,7 @@ sudo apt install libfuse2t64
 2. Select the folder where the files to be renamed are located.
 3. Click "Load names" to load the names of all files in the selected folder or enter the original names manually in the "Original names" field.
 4. Enter the new names in the "New names" field.
-5. Click on "Rename files".
+5. Click on "Rename".
 
 NOTE: The file whose original name is on line "1" of the "Original names" field will be renamed to the name that is on line "1" of the "New names" field, and so on.
 
@@ -40,6 +40,8 @@ NOTE: The file whose original name is on line "1" of the "Original names" field 
 
 - 📁 Selection of the folder with the files to be renamed;
 - ✍️ Fields for original names and new names (with line numbering);
+- 📝 Persistent history file for renaming and undoing separately;
+- 🛡️ Protection from accidental file or folder overscription;
 - 🔁 Button to undo the most recent renaming;
 - 🧼 Automatic removal of invalid characters for filenames;
 - 🌙 Toggle between 10 different themes, including popular ones like Adwaita and Breeze (Both on their light and dark variants). The theme is saved for future sessions.;
@@ -70,6 +72,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
