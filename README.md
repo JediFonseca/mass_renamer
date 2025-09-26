@@ -40,7 +40,7 @@ NOTE: The file whose original name is on line "1" of the "Original names" field 
 
 - 📁 Selection of the folder with the files to be renamed;
 - ✍️ Fields for original names and new names (with line numbering);
-- 📝 Persistent history file for renaming and undoing separately;
+- 📝 Persistent history files for renaming and undoing;
 - 🛡️ Protection from accidental file or folder overscription;
 - 🔁 Button to undo the most recent renaming;
 - 🧼 Automatic removal of invalid characters for filenames;
@@ -72,6 +72,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
