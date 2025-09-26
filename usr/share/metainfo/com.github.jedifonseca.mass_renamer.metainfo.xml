@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2025 Jedielson da Fonseca -->
+<component type="desktop-application">
+  <id>com.github.jedifonseca.mass_renamer</id>
+  
+  <name>Mass Renamer</name>
+  <summary>Rename multiple files at once quickly and easily</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  
+  <developer id="com.github.jedifonseca">
+    <name>Jedielson da Fonseca</name>
+  </developer>
+  
+  <description>
+    <p>
+      Mass Renamer is a simple yet powerful tool for renaming multiple files simultaneously. It is ideal for organizing photo collections, music libraries, or any set of files that need a consistent naming pattern.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Numbered list view of original and new names.</li>
+      <li>Automatically load all filenames from a selected folder, if so desired.</li>
+      <li>Quickly add or remove any file extensions.</li>
+      <li>Transfer extensions from original names to new names.</li>
+      <li>Undo the last renaming operation safely, even after an app or system crash.</li>
+      <li>Cross-platform filename validation for Windows, macOS, Linux and Android.</li>
+      <li>Multiple themes to match your desktop environment.</li>
+    </ul>
+  </description>
+  
+  <launchable type="desktop-id">massrenamer.desktop</launchable>
+  
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window with Mint-Y-Dark-Aqua theme</caption>
+      <image>https://raw.githubusercontent.com/JediFonseca/mass_renamer/main/screenshots/img01.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Settings window with Ubuntu light theme</caption>
+      <image>https://raw.githubusercontent.com/JediFonseca/mass_renamer/main/screenshots/img02.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="2.3" date="2025-09-25">
+      <description>
+        <p>This is a small update focused on improving compatibility and small UI adjustments.</p>
+        <ul>
+          <li>Switched the packaging tool from "AppImageTool" to "Linux Deploy" for better compatibility across distros.</li>
+          <li>Adjusted the texts on some buttons, because they were longer than the buttons on some distros, depending on the system fonts settings.</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1" />
+  
+  <url type="homepage">https://github.com/JediFonseca/mass_renamer</url>
+  <url type="bugtracker">https://github.com/JediFonseca/mass_renamer/issues</url>
+  
+</component>
