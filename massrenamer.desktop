@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Mass Renamer
+Comment=Rename multiple files at once quickly and easily.
+Comment[pt_BR]=Renomeie múltiplos arquivos de uma vez de forma rápida e fácil.
+Exec=massrenamer.bin
+Icon=appicon
+Categories=Utility;
+StartupNotify=true
+StartupWMClass=massrenamer

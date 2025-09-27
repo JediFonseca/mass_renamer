@@ -1,0 +1,18 @@
+#!/bin/bash
+
+HERE="$(dirname "$(readlink -f "${0}")")"
+
+# Configurar bibliotecas
+export LD_LIBRARY_PATH="${HERE}:${LD_LIBRARY_PATH}"
+
+# Configurar plugins Qt6
+export QT_PLUGIN_PATH="${HERE}/PyQt6/Qt6/plugins:${QT_PLUGIN_PATH}"
+
+# Configurações Qt para AppImage
+export QT_QPA_PLATFORM_PLUGIN_PATH="${HERE}/PyQt6/Qt6/plugins/platforms"
+
+# Ir para o diretório correto
+cd "${HERE}"
+
+# Executar
+exec "${HERE}/massrenamer.bin" "$@" 
