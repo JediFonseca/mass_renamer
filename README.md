@@ -5,6 +5,7 @@
 [**Download the AppImage**](https://github.com/JediFonseca/mass_renamer/releases)
 
 **Version 2.3 tested on:**  
+✅ Fedora 42 (GNOME);  
 ✅ openSUSE Leap 15.6 (KDE Plasma);  
 ✅ openSUSE Tumbleweed (GNOME);  
 ✅ Pop!_OS 22.04;  
@@ -80,6 +81,7 @@ Distributed under the [Apache License 2.0](http://www.apache.org/licenses/LICENS
 **Jedielson da Fonseca**
 
 📧 [jdfn7@proton.me](mailto:jdfn7@proton.me)
+
 
 
 
