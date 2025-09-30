@@ -884,7 +884,7 @@ BREEZE_DARK_STYLESHEET = """
 # --- Translation Dictionaries ---
 LANG_TEXTS = {
     "en": {
-        "title": "Mass Renamer 2.2", "settings": "Settings", "help": "Help", "dark": "Dark", "light": "Light",
+        "title": "Mass Renamer 2.3", "settings": "Settings", "help": "Help", "dark": "Dark", "light": "Light",
         "file_location": "📂 File location:", "select_folder": "Select folder",
         "load_original": "Load names", "add_extension": "Add extension:",
         "orig_names": "Original names (one per line):", "new_names": "New names (one per line):",
@@ -906,7 +906,7 @@ LANG_TEXTS = {
             "• Click on <b>\"Cancel\"</b> to close this window without doing anything."
         ),
         "conflict_btn_rename": "Rename", "conflict_btn_list": "List Errors", "conflict_btn_cancel": "Cancel",
-        "help_text": "<p>1. Select the folder where the files are located.<br>2. Click \"Load names\" or enter the original names manually.<br>3. Enter the new names.<br>4. Click on \"Rename Files\".</p><p><b>NOTE:</b> The file on line \"1\" of original names will be renamed to the name on line \"1\" of new names, and so on.</p><hr><p>Version: 2.2<br>License: <a href=\"https://www.apache.org/licenses/LICENSE-2.0.html\">Apache 2.0</a><br>Author: <a href=\"https://www.instagram.com/jedifonseca/\">Jedielson da Fonseca</a><br><a href=\"https://github.com/JediFonseca/mass_renamer\">Github</a></p>",
+        "help_text": "<p>1. Select the folder where the files are located.<br>2. Click \"Load names\" or enter the original names manually.<br>3. Enter the new names.<br>4. Click on \"Rename\".</p><p><b>NOTE:</b> The file on line \"1\" of original names will be renamed to the name on line \"1\" of new names, and so on.</p><hr><p>Version: 2.3.1<br>License: <a href=\"https://www.apache.org/licenses/LICENSE-2.0.html\">Apache 2.0</a><br>Author: <a href=\"https://www.instagram.com/jedifonseca/\">Jedielson da Fonseca</a><br><a href=\"https://github.com/JediFonseca/mass_renamer\">Github</a></p>",
         "apply": "Apply", "cancel": "Cancel", "invalid_chars_os": "Disallow invalid characters for:",
         "invalid_chars_windows": "Windows", "invalid_chars_macos": "macOS",
         "invalid_chars_ios": "iOS", "invalid_chars_android": "Android",
@@ -922,7 +922,7 @@ LANG_TEXTS = {
         "undo_failed_msg": "The last rename cannot be undone because the files in the target folder, or their names, have been modified. This is a Mass Renamer safeguard to prevent accidental data overwriting."
     },
     "pt": {
-        "title": "Mass Renamer 2.2", "settings": "Ajustes", "help": "Ajuda", "dark": "Escuro", "light": "Claro",
+        "title": "Mass Renamer 2.3", "settings": "Ajustes", "help": "Ajuda", "dark": "Escuro", "light": "Claro",
         "file_location": "📂 Localização dos arquivos:", "select_folder": "Selecionar pasta",
         "load_original": "Carregar nomes", "add_extension": "Adicionar extensão:",
         "orig_names": "Nomes originais (um por linha):", "new_names": "Novos nomes (um por linha):",
@@ -944,7 +944,7 @@ LANG_TEXTS = {
             "• Clique em <b>\"Cancelar\"</b> para fechar esta janela sem fazer nada."
         ),
         "conflict_btn_rename": "Renomear", "conflict_btn_list": "Listar Erros", "conflict_btn_cancel": "Cancelar",
-        "help_text": "<p>1. Selecione a pasta onde os arquivos estão.<br>2. Clique em \"Carregar nomes\" ou insira os nomes originais manualmente.<br>3. Indique os novos nomes.<br>4. Clique em \"Renomear arquivos\".</p><p><b>OBS.:</b> O arquivo na linha \"1\" dos nomes originais será renomeado para o nome na linha \"1\" dos novos nomes, e assim sucessivamente.</p><hr><p>Versão: 2.2<br>Licença: <a href=\"https://www.apache.org/licenses/LICENSE-2.0.html\">Apache 2.0</a><br>Autor: <a href=\"https://www.instagram.com/jedifonseca/\">Jedielson da Fonseca</a><br><a href=\"https://github.com/JediFonseca/mass_renamer\">Github</a></p>",
+        "help_text": "<p>1. Selecione a pasta onde os arquivos estão.<br>2. Clique em \"Carregar nomes\" ou insira os nomes originais manualmente.<br>3. Indique os novos nomes.<br>4. Clique em \"Renomear\".</p><p><b>OBS.:</b> O arquivo na linha \"1\" dos nomes originais será renomeado para o nome na linha \"1\" dos novos nomes, e assim sucessivamente.</p><hr><p>Versão: 2.3.1<br>Licença: <a href=\"https://www.apache.org/licenses/LICENSE-2.0.html\">Apache 2.0</a><br>Autor: <a href=\"https://www.instagram.com/jedifonseca/\">Jedielson da Fonseca</a><br><a href=\"https://github.com/JediFonseca/mass_renamer\">Github</a></p>",
         "apply": "Aplicar", "cancel": "Cancelar", "invalid_chars_os": "Não permitir caracteres inválidos para:",
         "invalid_chars_windows": "Windows", "invalid_chars_macos": "macOS",
         "invalid_chars_ios": "iOS", "invalid_chars_android": "Android",
@@ -1781,12 +1781,13 @@ class MassRenamerApp(QMainWindow):
         num_lines_to_process = min(len(orig_lines), len(new_lines))
         result_lines = list(new_lines)
         for i in range(num_lines_to_process):
-            if not result_lines[i].strip(): continue
-            _ , orig_ext = os.path.splitext(orig_lines[i])
+            if not result_lines[i].strip():
+                continue
+            orig_ext = os.path.splitext(orig_lines[i])[1]
             if orig_ext:
-                new_base, _ = os.path.splitext(result_lines[i])
-                result_lines[i] = new_base + orig_ext
+                result_lines[i] = result_lines[i] + orig_ext
         self.text_new.setPlainText("\n".join(result_lines))
+
 
     def remove_extension(self):
         lines = self.text_new.toPlainText().splitlines()
