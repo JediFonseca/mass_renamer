@@ -1,3 +1,7 @@
+## ⚠️ Personal Project
+
+PCData was built for my own personal use. The repository is public and anyone is welcome to use, fork, or modify it freely. That said, since this is a hobby project maintained in my spare time, I may not always be able to provide support to third parties. I'll help if I can, but there are no guarantees. Issues and pull requests may go unanswered. Use it as-is, at your own risk.
+
 # 🗂️ Mass Renamer 2.3
 
 **Mass Renamer** is a Linux application developed in Python with a `Qt6` interface, which allows you to rename multiple files quickly, safely, and in an organized manner. It supports undoing the most recent renaming even if the app was closed or crashed, adding extensions to filenames, protection from accidental file or folder overscription and a multilingual interface (🇧🇷 Portuguese and 🇺🇸 English).
@@ -5,7 +9,7 @@
 [**Download the AppImage**](https://github.com/JediFonseca/mass_renamer/releases)
 
 **Version 2.3 tested on:**  
-✅ Fedora 42 (GNOME);  
+✅ Fedora 44 (GNOME);  
 ✅ openSUSE Leap 15.6 (KDE Plasma);  
 ✅ openSUSE Tumbleweed (GNOME);  
 ✅ Pop!_OS 22.04;  
@@ -19,8 +23,6 @@
 ✅ Zorin OS 17.3;  
 ✅ Debian 13 (MATE);  
 ✅ Debian 12 (GNOME).  
-
-**IMPORTANT:** This software was created for **recreational and experimental purposes**. It is being made available as **free** and **open-source**. If it helps you in any way, make good use of it. Feel free to contribute, adapt, or share! I am not a developer, I don't work in the field, and I don't have in-depth knowledge of any programming language. The development of this software was done **for fun and as a hobby** with the **assistance of AI** (**Vibe Coding**).
 
 <img width="911" height="695" alt="img01" src="https://github.com/user-attachments/assets/64c958b6-09a1-44d0-b306-3e0bbe5f054d" />
 
